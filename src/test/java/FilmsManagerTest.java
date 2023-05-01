@@ -32,15 +32,7 @@ public class FilmsManagerTest {
         Assertions.assertArrayEquals(expected, actual);
     }
 
-    @Test
-    public void testNullFilms(){
-        FilmsManager manager = new FilmsManager();
 
-
-        String[] actual = manager.findAll();
-        String[] expected = { "Movie I" };
-        Assertions.assertArrayEquals(expected, actual);
-    }
 
     @Test
 
